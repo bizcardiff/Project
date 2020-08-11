@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My trial Page</title>
+</head>
+<body>
+	<h1>This is an example of if statement</h1>
+
+	<p>click the button to know your driving eligibility</p>
+
+	<button onclick="myFunction()"> try it </button>
+	<p id="demo"></p>
+
+	<script> 
+      
+      Function myFunction() {
+
+      	var message;
+      	var age = 23;
+
+      	if (age > 19) {
+      		message="you are eligible to drive";
+      	}
+
+      	document.getElementById("demo")
+      	.innerHTML = message;
+
+      }
+	</script>
+
+	<h2>This  is an example of else statement</h2>
+
+	<p>click the button to your driving eligibility</p>
+
+	<button onclick="myFunction1()">Try it</button>
+
+	<p id="demo"></p>
+
+	<script>
+		
+		Function myFunction1() {
+			var message1;
+			var age = 1;
+
+			if (age > 19) {
+				message1="you are eligible to drive";
+			} else {
+				message1="not eligible to dive";
+
+			}
+			document.getElementById("demo")
+			.innerHTML = message1;
+		}
+	</script>
+</body>
+</html>

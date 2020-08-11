@@ -1,0 +1,27 @@
+h1{
+	font-size: 80px;
+	text-align: center;
+	color: rgb(29,43,89);
+}
+p{
+	font-size: 40px;
+}
+
+#navbar{
+	text-align: right;
+}
+.blue{
+	color: blue;
+}
+.red{
+	color: red;
+}
+.green{
+	color: green;
+}
+.yellow{
+	color: yellow;
+}
+input{
+	border-radius: 10px;
+}
